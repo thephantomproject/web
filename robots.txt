@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://thephantomproject.team/sitemap.xml
