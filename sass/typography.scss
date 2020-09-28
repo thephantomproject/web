@@ -1,0 +1,15 @@
+body {
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", sans-serif;
+}
+
+$font-options: lighter bold bolder;
+
+@each $font-option in $font-options {
+    .font-#{$font-option} {
+        font-weight: $font-option;
+    }
+}
+
+.font-size-48 {
+    font-size: 48px !important;
+}

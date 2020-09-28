@@ -1,0 +1,22 @@
+{%extends "base.html"%}
+{%block content%}
+    <div class="hero">
+        <div class="navbar">
+            <div class="left-navbar"><h1>PHANTOM <span class="font-lighter">RACING</span></h1></div>
+            <div class="right-navbar"><h1 id="nav-icon"><span class="material-icons font-size-48">menu</span></h1></div>
+        </div>
+        <img src="/images/car1.png" width="100%" />
+    </div>
+    <nav id="nav-overlay" class="nav-overlay" style="display: none;">
+        <div class="nav-overlay-inner">
+            <h1 style="float: right;" id="close-nav"><span class="material-icons font-size-48">close</span></h1>
+            <div class="nav-overlay-text">
+            <h1>Navigation</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+{%endblock content%}
